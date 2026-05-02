@@ -36,9 +36,14 @@ select {
 
 header nav ul li {
   list-style-type: none;
-  display: inline;
 }
 
 header nav ul li a {
   text-decoration: none;
+}
+
+ul {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
 }
