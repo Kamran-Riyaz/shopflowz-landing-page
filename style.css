@@ -40,16 +40,75 @@ nav div a {
 }
 
 nav div a:hover {
-  color: #000000d5;
+  color: #000000b4;
 }
 
 nav {
-  margin-top: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
   display: flex;
   justify-content: center;
   gap: 5em;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.nav-link {
+  font-weight: 300;
 }
 
 .brand {
-  font-weight: bold;
+  font-weight: 700;
+}
+
+.cta {
+  font-weight: 600;
+}
+
+main {
+  /* margin-top: 50px; */
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+  /* margin-top: 80px; */
+}
+
+.sub-heading {
+  text-align: center;
+  font-weight: 400;
+}
+
+.cta-btn-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.cta-btn-container a {
+  text-decoration: none;
+  background-color: #0A64BC;
+  color: #ffffff;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+}
+
+.cta-btn-container a:hover {
+  background-color: #085199;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
 }
