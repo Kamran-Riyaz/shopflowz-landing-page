@@ -13,7 +13,7 @@ body {
     "Segoe UI",
     Roboto,
     sans-serif;
-    letter-spacing: -0.02em;
+  letter-spacing: -0.02em;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -34,16 +34,22 @@ select {
   font: inherit;
 }
 
-header nav ul li {
-  list-style-type: none;
-}
-
-header nav ul li a {
+nav div a {
   text-decoration: none;
+  color: #000;
 }
 
-ul {
+nav div a:hover {
+  color: #000000d5;
+}
+
+nav {
+  margin-top: 20px;
   display: flex;
-  gap: 30px;
   justify-content: center;
+  gap: 5em;
+}
+
+.brand {
+  font-weight: bold;
 }
