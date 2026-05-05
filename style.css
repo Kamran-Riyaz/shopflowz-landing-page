@@ -7,6 +7,7 @@
 }
 
 body {
+  margin: 0;
   font-family:
     "Inter",
     -apple-system,
@@ -68,10 +69,6 @@ nav {
   font-weight: 600;
 }
 
-main {
-  /* margin-top: 50px; */
-}
-
 .hero {
   height: 100vh;
   display: flex;
@@ -109,10 +106,9 @@ main {
 }
 
 .features {
-  margin-left: 180px;
-  margin-right: 180px;
-  margin-bottom: 180px;
-  /* height: 100vh; */
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .grid {
@@ -126,11 +122,12 @@ main {
   background: #f0f0f0;
   padding: 20px;
   border-radius: 8px;
-  /* margin-top: 40px; */
 }
 
 footer {
   text-align: center;
+  padding: 20px;
+  margin-top: 60px;
 }
 
 /* Tablet */
