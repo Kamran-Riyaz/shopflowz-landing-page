@@ -3,6 +3,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -96,7 +97,7 @@ main {
 
 .cta-btn-container a {
   text-decoration: none;
-  background-color: #0A64BC;
+  background-color: #0a64bc;
   color: #ffffff;
   padding: 12px;
   border-radius: 5px;
@@ -107,8 +108,56 @@ main {
   background-color: #085199;
 }
 
+.features {
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-bottom: 180px;
+  /* height: 100vh; */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  /* margin-top: 40px; */
+}
+
+footer {
+  text-align: center;
+}
+
+/* Tablet */
 @media screen and (max-width: 768px) {
   nav {
     display: none;
+  }
+
+  .features {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  nav {
+    display: none;
+  }
+  .features {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .grid {
+    grid-template-columns: 1fr;
   }
 }
