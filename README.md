@@ -3,6 +3,9 @@
 ## Description
 ShopFlowz is a modern landing page for a fictional shop management system that helps businesses run smarter. It showcases features like smart billing, inventory tracking, and customer management—all in one simple system built for modern businesses.
 
+**Live Demo:** [kamran-riyaz.github.io/shopflowz-landing-page/](https://kamran-riyaz.github.io/shopflowz-landing-page/)  
+**GitHub Repo:** [github.com/Kamran-Riyaz/linkstack](https://github.com/Kamran-Riyaz/shopflowz-landing-page)
+
 ## Tech Stack
 - **HTML5**: Semantic markup for structure
 - **CSS3**: Modern styling with CSS Grid, Flexbox, and responsive design
